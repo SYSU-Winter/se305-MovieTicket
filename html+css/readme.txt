@@ -1,0 +1,14 @@
+index：首页
+change：修改个人信息
+information：个人信息
+login：登录
+registere：注册
+select：选择电影
+selectseat：选座
+pay：支付
+PS.se
+1.合并了几个功能相似的网页
+2.有一些排版需要数据库和JS可以交给其他人
+3.触发弹窗直接JS写好就行
+4.old文件夹不用管，最后再删
+5.demo，模板网页，不用管
