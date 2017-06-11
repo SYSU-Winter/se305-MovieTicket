@@ -1,0 +1,35 @@
+.test
+{
+width:100px;
+height:100px;
+background:red;
+animation:myfirst 5s;
+-moz-animation:myfirst 5s; /* Firefox */
+-webkit-animation:myfirst  5s; /* Safari and Chrome */
+-o-animation:myfirst 5s; /* Opera */
+animation-fill-mode: forwards;
+}
+
+@keyframes myfirst
+{
+from {background:red;transform: rotate(360deg);}
+to {background:url("../skin/img/icon.svg");font-size:0px;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+from {background:red;transform: rotate(360deg);}
+to {background:url("../skin/img/icon.svg");font-size:0px;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+from {background:red;transform: rotate(360deg);}
+to {background:url("../skin/img/icon.svg");font-size:0px;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+from {background:red;transform: rotate(360deg);}
+to {background:url("../skin/img/icon.svg");font-size:0px;}
+}
